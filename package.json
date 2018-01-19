@@ -1,7 +1,7 @@
 {
   "name": "sql-to-prisma",
   "version": "0.1.1",
-  "description": "Generate a Prisma GraphQL Schema based on your SQL database",
+  "description": "Generate Graphcool/Prisma schema from your SQL Database",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
