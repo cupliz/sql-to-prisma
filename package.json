@@ -1,0 +1,28 @@
+{
+  "name": "sql-to-prisma",
+  "version": "0.1.1",
+  "description": "Generate a Prisma GraphQL Schema based on your SQL database",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cupliz/sql-to-prisma.git"
+  },
+  "author": "Iyan Cupliz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cupliz/sql-to-prisma/issues"
+  },
+  "homepage": "https://github.com/cupliz/sql-to-prisma#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "knex": "^0.14.2",
+    "lodash": "^3.10.0",
+    "mkdirp": "^0.5.1",
+    "mysql": "^2.15.0",
+    "pg": "^7.4.1",
+    "sqlite3": "^3.1.13"
+  }
+}

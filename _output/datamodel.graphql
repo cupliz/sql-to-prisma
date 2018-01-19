@@ -1,0 +1,19 @@
+type t_artikel {
+  No: Int! @unique 
+  Tanggal: String! 
+  Judul: String! 
+  Isi_artikel: String 
+  Pengirim: String 
+  Visits: Int! 
+  Admin: Int! 
+}
+
+type t_artikel_kom {
+  No: Int! @unique 
+  Artikel_id: Int 
+  Nama: String 
+  Email: String 
+  Tanggal: String! 
+  Komentar: String 
+}
+
